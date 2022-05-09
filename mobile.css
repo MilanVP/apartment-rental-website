@@ -4,6 +4,14 @@
 	body {
 		display: grid;
 		grid-template-columns: auto;
+		grid-gap: 0;
+	}
+
+	.gallery img,
+	.location img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	header p,

@@ -4,6 +4,10 @@ body {
 	font-family: verdana, helvetica, sans-serif;
 }
 
+.homepage {
+	text-decoration: none;
+}
+
 nav li {
 	list-style-type: none;
 	display: inline-block;
@@ -17,6 +21,11 @@ nav ul {
 
 .borderright {
 	border-right: solid 1px black;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 table,
@@ -61,6 +70,11 @@ h3 {
 	padding: 5px;
 }
 
+h2,
+h3 {
+	text-align: center;
+}
+
 header {
 	grid-column: 1 / span 3;
 	text-align: center;
@@ -68,5 +82,9 @@ header {
 
 nav {
 	grid-column: 1 / span 3;
+	text-align: center;
+}
+
+footer {
 	text-align: center;
 }

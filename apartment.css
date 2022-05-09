@@ -36,7 +36,6 @@ body {
 
 footer {
     grid-column: 1 / span 3;
-    text-align: center;
 }
 
 .button {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<!-- Author: Milankumar Prajapati, 000813839 -->
@@ -18,17 +18,20 @@
 <body>
 
 	<header>
-		<h1>Sandy and Leslie's Apartment</h1>
+		<a href="apartment.html" class="homepage">
+			<h1>Sandy and Leslie's Apartment</h1>
+		</a>
 		<p>Click a room for a detailed view.</p>
 		<img src="images/normal/apartmentfloorplan.jpg" alt="This is an image of floor plan of apartment."
 			usemap="#floormap">
 		<map name="floormap">
-			<area shape="rect" coords="56, 8, 190, 157" href="bedroom.html">
-			<area shape="rect" coords="203, 8, 351, 157" href="bedroom.html">
-			<area shape="circle" coords="411, 135, 48" href="diningroom.html">
-			<area shape="rect" coords="250, 233, 391, 397" href="kitchen.html">
-			<area shape="poly" coords="425, 394, 550, 394, 524 ,175, 480, 171, 400, 204" href="livingroom.html">
-			<area shape="default" href="apartment.html">
+			<area shape="rect" coords="56,8,190,157" href="bedroom.html" alt="Bedroom">
+			<area shape="rect" coords="203,8,351,157" href="bedroom.html" alt="Bedroom">
+			<area shape="circle" coords="411,135,48" href="diningroom.html" alt="Dining room">
+			<area shape="rect" coords="250,233,391,397" href="kitchen.html" alt="Kitchen">
+			<area shape="poly" coords="425,394,550,394,524,175,480,171,400,204" href="livingroom.html"
+				alt="Living room">
+			<area shape="default" href="apartment.html" alt="Apartment">
 		</map>
 	</header>
 
@@ -49,8 +52,10 @@
 		<h2>Apartment Services</h2>
 		<table>
 			<thead>
-				<th>Services</th>
-				<th>Days/Hours</th>
+				<tr>
+					<th>Services</th>
+					<th>Days/Hours</th>
+				</tr>
 			</thead>
 			<tbody>
 				<tr>
@@ -63,7 +68,6 @@
 				<tr>
 					<td>Laundry</td>
 					<td>24/7</td>
-					</td>
 			</tbody>
 			<tfoot>
 				<tr>
