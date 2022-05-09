@@ -1,12 +1,14 @@
 /* Author: Milankumar Prajapati, 000813839 */
 
-@media only screen and (	max-width:600px ) {
+@media only screen and (max-width:600px) {
 	body {
 		display: grid;
 		grid-template-columns: auto;
 	}
 
-	header p, header img, header map {
+	header p,
+	header img,
+	header map {
 		display: none;
 	}
 
@@ -35,10 +37,12 @@
 	}
 
 	.services {
+		grid-column: 1;
 		grid-row: 4;
 	}
 
 	.location {
+		grid-column: 1;
 		grid-row: 5;
 	}
 
