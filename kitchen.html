@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Author: Milankumar Prajapati, 000813839 -->
+		<meta charset="UTF-8" />
+		<title>Sandy and Leslie's apartment</title>
+		<link rel="stylesheet" type="text/css" href="apartment_layout.css">
+		<style>
+			.center {
+				text-align: center;
+			}			
+		</style>		
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Sandy and Leslie's Apartment</h1>
+			<img src="images/normal/apartmentfloorplan.jpg" alt="This is an image of floor plan of apartment." usemap="#floormap">
+			<map name="floormap">
+				<area shape="rect" coords="56, 8, 190, 157" href="bedroom.html">
+				<area shape="rect" coords="203, 8, 351, 157" href="bedroom.html">
+				<area shape="circle" coords="411, 135, 48" href="diningroom.html">
+				<area shape="rect" coords="250, 233, 391, 397" href="kitchen.html">
+				<area shape="poly" coords="425, 394, 550, 394, 524 ,175, 480, 171, 400, 204" href="livingroom.html">
+				<area shape="default" href="apartment.html">
+			</map>
+		</header>
+		
+		<nav>
+			<ul>
+				<li class="borderright"><a href="apartment.html">Apartment</a></li><!--
+				--><li class="borderright"><a href="bedroom.html">Bedroom 1</a></li><!--
+				--><li class="borderright"><a href="bedroom.html">Bedroom 2</a></li><!--
+				--><li class="borderright"><a href="diningroom.html">Dining Room</a></li><!--
+				--><li class="borderright"><a href="kitchen.html">Kitchen</a></li><!--
+				--><li><a href="livingroom.html">Living Room</a></li>
+			</ul>
+		</nav>
+
+		<h2 class="center">Kitchen Details</h2>
+		<p class="center"><img src="images/normal/kitchen_lg.jpg" alt="Image of kitchen"></p>
+		<h2>Apartment Services</h2>
+		<table>
+			<thead>
+				<th>Services</th>
+				<th>Days/Hours</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="cellheight">Gym</td>
+					<td rowspan="2">Monday-Friday 6am to 10pm<br>Saturday 8am to 8pm<br>Sunday 8am to 5pm</td>
+				</tr>
+				<tr>
+					<td class="cellheight">Pool</td>
+				</tr>
+				<tr>
+					<td>Laundry</td>
+					<td>24/7</td>
+				</td>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td id="tabfoot" colspan="2">Please do not allow people you do not know to use these facilities.</td>
+				</tr>
+			</tfoot>
+		</table>
+		
+		<footer>
+			<p>
+				For more information contact: 
+				<a href="apartment@example.com">SandyAndLeslie@example.com</a>
+				<br>
+				&#9400; Sandy and Leslie 2020
+				<br>
+				Go to <a href="../index.html">index</a>
+			</p>
+		</footer>
+
+	</body>
+
+</html>

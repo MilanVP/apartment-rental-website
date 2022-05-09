@@ -1,0 +1,58 @@
+/* Author: Milankumar Prajapati, 000813839 */
+
+@media only screen and (	max-width:600px ) {
+	body {
+		display: grid;
+		grid-template-columns: auto;
+	}
+
+	header p, header img, header map {
+		display: none;
+	}
+
+	nav ul {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	header {
+		grid-row: 1;
+		grid-column: span 1;
+	}
+
+	nav {
+		grid-row: 2;
+		grid-column: span 1;
+	}
+
+	.borderright {
+		border: none;
+	}
+
+	.surveywelcome {
+		grid-row: 3;
+	}
+
+	.services {
+		grid-row: 4;
+	}
+
+	.location {
+		grid-row: 5;
+	}
+
+	.gallery {
+		grid-row: 6;
+	}
+
+	.flexbox {
+		flex-direction: column;
+	}
+
+	footer {
+		grid-row: 7;
+		grid-column: span 1;
+	}
+
+}
